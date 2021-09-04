@@ -13,8 +13,6 @@ public class interaction : MonoBehaviour
 
     bool spinSp2 = false;
 
-
-
     // Update is called once per frame
     void Update()
     {
@@ -45,6 +43,7 @@ public class interaction : MonoBehaviour
 
     public void onClickSp1()
     {
+        InfoScript.SP1();
         Audio.PlayOneShot(sound_1);
         //Below line will chnage material color to new Random color
         sphere_1.GetComponent<Renderer>().material.color = new Color(Random.value, Random.value, Random.value, 1.0f);
@@ -52,6 +51,7 @@ public class interaction : MonoBehaviour
 
     public void onClickSp2()
     {
+        InfoScript.SP2();
         Audio.PlayOneShot(sound_2);
         spinSp2 = !spinSp2;
     }
