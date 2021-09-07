@@ -196,6 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb7cc1592bee47d40b489355c92914ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam1: {fileID: 1114040581}
   t: {fileID: 1282506909}
   i: {fileID: 831533351}
   mang: {fileID: 40919617}
